@@ -1,0 +1,36 @@
+General
+	University of West Florida homepage
+		http://www.uwf.edu/
+
+	Computer Science Department
+		http://www.uwf.edu/computerscience
+
+	My UWF (Student portal)
+		http://my.uwf.edu/
+
+	eLearning
+		http://elearning.uwf.edu/
+
+	UWF Library
+		http://library.uwf.edu/
+
+
+UNIX and C programming Resources
+	jGrasp Software (Easy to use IDE for Java, C++, C, etc.)
+ 		http://www.jgrasp.org/
+
+	MinGW (small C, C++ compiler that works well with jGrasp)
+		http://sourceforge.net/projects/mingw/
+
+Java Resources
+	Eclipse (open source integrated development environment)
+		http://www.eclipse.org
+
+ 	Netbeans (open source integrated development environment)
+		http://www.netbeans.org/
+
+	Java SDK and JVM (Java software developer's kit and virtual machine)
+		http://www.java.com/
+
+ 	Java API (Application Programming Interface)
+		http://docs.oracle.com/javase/7/docs/api
