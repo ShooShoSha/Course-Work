@@ -61,11 +61,14 @@ Common shell commands for navigating a UNIX file system:
 	man 	//show manual pages of commands
 
 Many commands have additional options
+
 	ls -al //Gives a long listing of all files
 
 UNIX allows the use of something called a wildcard:
+
 	rm *.java 	//Removes all files ending with .java
 	rm pgm*.java 	//Removes all files starting with pgm and ending with .java
+	
 Some examples of commands
 	cd /
 	cd ~jlewis
