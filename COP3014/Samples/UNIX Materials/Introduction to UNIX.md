@@ -23,7 +23,7 @@
 	* sh (bourne)
 	* csh (Sun/Berkeley)
 	* ksh (Korn)
-	* bash (Linux)
+	* [bash](http://www.gnu.org/software/bash/manual/bashref.html)
 
 ## File System
 The file system is hierarchical, "an arrangement of items... in which 
