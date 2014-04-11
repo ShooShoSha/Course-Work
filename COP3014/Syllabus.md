@@ -1,21 +1,20 @@
-# Introduction to Algorithms and Program Design Syllabus
+# Intro to Algorithms & Program Design Syllabus
 
 * **Course Information**
 	* **Semester:** Spring 2014
-	* **Course:** COP 3014
+	* **Course:** COP3014C
 	* **Credit Hours:** 4.0
 	* **Instructor:** Jim Lewis, [jlewis@uwf.edu](jlewis@uwf.edu)
 	* **Time:** TR 4:00-5:45
-	* **Place:** Bldg 4 / Room 310
+	* **Place:** Building 4 / Room 310
+	* **Website:** http://www.uwf.edu/jlewis
 
 * **Need Help?**
 	* Look through and create [issues](https://github.com/ShooShoSha/Course-Work/issues)
 	* Hours: MW 9:15-11:45, F 9:15-10:30
 	* Office: Building 4, Room 232
-	* Tel: 850-473-7346
+	* Tel: 850-473-7346 :telephone:
 	* Or [email](jlewis@uwf.edu) for an appointment.
- 
-Course website: http://www.uwf.edu/jlewis
 
 ## Course Description
 An introduction to designing solutions toscientific problems. Emphasis on the 
@@ -28,6 +27,7 @@ language.
 
 ## Student Learning Outcomes
 Students who successfully complete this course will be able to:
+
 1. Develop algorithmic solutions to problems,using basic data types, control constructs, and parameter passing.
 2. Build program solutions that require simple search and sorting algorithms.
 3. Follow a development process where algorithms are developed before implementation begins.
@@ -52,28 +52,43 @@ Students who successfully complete this course will be able to:
 * Projects: 35%
 
 ## Grading Scale
-* 93%: A
-* 90%: A-
-* 87%: B+
-* 83%: B
-* 80%: B-
-* 77%: C+
-* 73%: C
-* 70%: C-
-* 67%: D+
-* 60%: D
-* below 60%: F
+* 93%: **A**
+* 90%: **A-**
+* 87%: **B+**
+* 83%: **B**
+* 80%: **B-**
+* 77%: **C+**
+* 73%: **C**
+* 70%: **C-**
+* 67%: **D+**
+* 60%: **D**
+* below 60%: **F**
 
 ## Resources
 
 ### Required Reading
-* [Programming in C](http://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=4&ved=0CEsQFjAD&url=http%3A%2F%2Freplace.org.ua%2Fmisc.php%3Faction%3Dpun_attachment%26item%3D25%26download%3D1&ei=nQdIU_zxMu6T0gH7oYHADQ&usg=AFQjCNGcdk-1EmOZNwNMGUBuUxZDo0xa4A&bvm=bv.64542518,d.dmQ&cad=rja), Stephen G. Kochan, 3rd Edition, ISBN 0-672-32666-3
+* [Programming in C](http://goo.gl/UclAOl) Stephen G. Kochan, 3rd Edition, ISBN 0-672-32666-3
 
 ## Expectations for Academic Conduct/Plagiarism Policy:
 
-> As members of the University of West Florida, we commit ourselves to honesty. As we strive for excellence in performance, integrity-personal and institutional-is our most precious asset. Honesty in our academic work is vital, and we will not knowingly act in ways which erode that integrity. Accordingly, we pledge not to cheat, nor to tolerate cheating, nor to plagiarize the work of others. We pledge to share community resources in ways that are responsible and that comply with established policies of fairness. Cooperation and competition are means to high achievement and are encouraged. Indeed, cooperation is expected unless our directive is to individual performance. We will compete constructively and professionally for the purpose of stimulating high performance standards. Finally, we accept adherence to this set of expectations for academic conduct as a condition of membership in the UWF academic community.
+> As members of the University of West Florida, we commit ourselves to 
+honesty. As we strive for excellence in performance, integrity-personal and 
+institutional-is our most precious asset. Honesty in our academic work is 
+vital, and we will not knowingly act in ways which erode that integrity. 
+Accordingly, we pledge not to cheat, nor to tolerate cheating, nor to 
+plagiarize the work of others. We pledge to share community resources in ways 
+that are responsible and that comply with established policies of fairness. 
+Cooperation and competition are means to high achievement and are encouraged. 
+Indeed, cooperation is expected unless our directive is to individual 
+performance. We will compete constructively and professionally for the purpose 
+of stimulating high performance standards. Finally, we accept adherence to 
+this set of expectations for academic conduct as a condition of membership in 
+the UWF academic community.
 
-> Any occurrence of academic dishonesty, including all forms of cheating and plagiarism, will be punished by a range of punishments from a grade of zero on the assignment to expulsion from the university. For more information, see the [UWF Student Handbook](Handbook <http://www.thezonelive.com/zone/public/6/handbook.asp>).
+> Any occurrence of academic dishonesty, including all forms of cheating and 
+plagiarism, will be punished by a range of punishments from a grade of zero on 
+the assignment to expulsion from the university. For more information, see the 
+[UWF Student Handbook](<http://www.thezonelive.com/zone/public/6/handbook.asp>).
 
 >The Student Code of Conduct sets forth the rules, regulations and expected 
 behavior of students enrolled at the University of West Florida. Violations of 
@@ -83,11 +98,15 @@ read the Student Code of Conduct and conduct themselves accordingly.  You may
 access the current Student Code of Conduct at 
 [UWF Judicial Affairs](<http://www.uwf.edu/osrr/>).
 
-## Assistance:
+## Assistance
 
-> Students with special needs who require specific examination-related or other course-related accommodations should contact the [UWF Office of Disabled Students Services](http://www.uwf.edu/sdrc/) or by telephone 850-474-2387. DSS will provide the student with a letter for the instructor that will specify any recommended accommodations.
+> Students with special needs who require specific examination-related or 
+other course-related accommodations should contact the 
+[UWF Office of Disabled Students Services](http://www.uwf.edu/sdrc/) or by 
+telephone 850-474-2387. DSS will provide the student with a letter for the 
+instructor that will specify any recommended accommodations.
 
-## Other Course Policies:
+## Other Course Policies
 
 ### Attendance
 Not required, but is strongly encouraged. Students are responsible for all announcements and all material covered in class. If you miss a class, 
@@ -102,14 +121,17 @@ make advance arrangements.
 Final grades will be calculated using a standard grade distribution. 
 The last day of the term for withdrawal from an individual course with an 
 automatic grade of "W" is March 21, 2014. Withdrawals done after that date will
-result in a grade of "WF" or withdrawal-failing. Applying for an incomplete or 
-"I" grade will be considered only if you meet **ALL** the following: 
+result in a grade of "WF" or withdrawal-failing.
+Applying for an incomplete or "I" grade will be considered only if you meet 
+**ALL** of the following: 
+
 1. Extenuating circumstances warrant it
 2. Have a passing grade
 3. Completed at least 70% of the course work
 4. approval of the department chair.
 
 ### Participation and Feedback
-I encourage active participation and regular 
-feedback. I believe that effective communication between the instructor and 
-students will make the course more useful, interesting, and productive.
+I encourage active participation and regular feedback. I believe that 
+effective communication between the instructor and students will make the course
+more useful, interesting, and productive.
+
