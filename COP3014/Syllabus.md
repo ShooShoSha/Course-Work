@@ -103,7 +103,7 @@ access the current Student Code of Conduct at
 > Students with special needs who require specific examination-related or 
 other course-related accommodations should contact the 
 [UWF Office of Disabled Students Services](http://www.uwf.edu/sdrc/) or by 
-telephone 850-474-2387. DSS will provide the student with a letter for the 
+telephone (850) 474-2387. DSS will provide the student with a letter for the 
 instructor that will specify any recommended accommodations.
 
 ## Other Course Policies
@@ -120,9 +120,9 @@ make advance arrangements.
 ### Grades
 Final grades will be calculated using a standard grade distribution. 
 The last day of the term for withdrawal from an individual course with an 
-automatic grade of "W" is March 21, 2014. Withdrawals done after that date will
-result in a grade of "WF" or withdrawal-failing.
-Applying for an incomplete or "I" grade will be considered only if you meet 
+automatic grade of *W* is March 21, 2014. Withdrawals done after that date will
+result in a grade of *WF* or withdrawal-failing.
+Applying for an incomplete or *I* grade will be considered only if you meet 
 **ALL** of the following: 
 
 1. Extenuating circumstances warrant it
