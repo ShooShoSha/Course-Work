@@ -128,7 +128,7 @@ Applying for an incomplete or "I" grade will be considered only if you meet
 1. Extenuating circumstances warrant it
 2. Have a passing grade
 3. Completed at least 70% of the course work
-4. approval of the department chair.
+4. Received approval of the department chair
 
 ### Participation and Feedback
 I encourage active participation and regular feedback. I believe that 
