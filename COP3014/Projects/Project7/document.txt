@@ -1,0 +1,22 @@
+/*
+  Sample program
+  Cop 3014
+*/
+
+#define <stdio.h>
+
+int main()
+{
+	int i, num1 = 9, num2 = 13;
+	double size = 4.2;
+
+	if (num1 < num2)  printf("num1 is smaller\n");
+	else printf("num1 is not smaller\n");
+
+	for (i=0; i<5; i++)
+		printf("%i\n", i);
+
+	printf("going for a return \n");
+
+	return 0;
+}

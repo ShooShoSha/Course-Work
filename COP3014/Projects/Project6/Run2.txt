@@ -1,0 +1,56 @@
+46 Alice Aaron
+72.7
+59.9
+99.9
+
+234 Bill Bobby
+93.7
+98.88
+99.9
+
+126 Cary Carson
+118 92
+93
+75.7
+
+75 Dan Donald
+76.6
+85.538
+66.4
+
+106 Ernie Elson
+72.9
+89.44
+71.88
+
+217 Gloria Grace
+78.7
+88.8
+99.9
+
+89 Harry Henderson
+70.7
+58.8
+59.9
+
+26 Isaac Ilson
+88
+98.9999
+105 92.82
+
+133 Judy Johnson
+76.689
+65.538
+66.42
+
+125 Kit Karson
+52.9
+49.44
+71.88
+
+555 Larry Landon
+72.9
+89.44
+71.88
+
+
