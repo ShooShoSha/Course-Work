@@ -5,7 +5,7 @@ would like to save your file. Use the command:
 
 	vi pgm1.c
 
-You should now be running vi.
+You should now be running Vi.
 
 ## Vi Modes
 
@@ -28,7 +28,7 @@ letter you type will appear in the file. Continue typing as needed.
 Now you have entered all the text you want. How do you get out of **insert**
 mode? 
 
-**When you are using VI, if you cannot remember which mode you are in, simply press the escape (Esc) key._**
+**When you are using Vi, if you cannot remember which mode you are in, simply press the escape (Esc) key._**
 
 If you were not already in **insert** mode, pressing escape does nothing. You
 may flip between these modes as much as you need when typing in your file.
@@ -59,7 +59,7 @@ command:
 
 	ls
 
-and look for your file. You can look at the contects of the file by doing
+and look for your file. You can look at the contents of the file by doing
 
 	cat pgm1.c
 
@@ -70,7 +70,7 @@ Use arrow keys to navigate - **do not** use the mouse. In **command** mode, you
 can use h, j, k, and l to move left, down, up, and right respectively.
 
 Key | Direction
-___ | _________
+--- | ---------
 h | left
 j | down
 k | up
