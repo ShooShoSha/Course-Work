@@ -27,12 +27,12 @@ easier to read and debug.
 Include a comment before each function explaining the purpose of the function.
 
 ## Data
-`Project4/A.txt`
-`Project4/B.txt`
-`Project4/C.txt`
+[Project4/A.txt](https://github.com/ShooShoSha/Course-Work/blob/master/COP3014/Projects/Project4/A.txt)
+[Project4/B.txt](https://github.com/ShooShoSha/Course-Work/blob/master/COP3014/Projects/Project4/B.txt)
+[Project4/C.txt](https://github.com/ShooShoSha/Course-Work/blob/master/COP3014/Projects/Project4/C.txt)
 
 ## Results
-`Project4/RunOutput.txt`
+[Project4/RunOutput.txt](https://github.com/ShooShoSha/Course-Work/blob/master/COP3014/Projects/Project4/RunOutput.txt)
 
 ## Suggestions
 1. Start with your working code from project 3.

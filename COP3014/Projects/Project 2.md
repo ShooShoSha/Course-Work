@@ -64,11 +64,11 @@ case is detected and print an appropriate message.
 
 ## Data
 
-`Project2/in1.txt`
-`Project2/in2.txt`
+[Project2/in1.txt](https://github.com/ShooShoSha/Course-Work/blob/master/COP3014/Projects/Project2/in1.txt)
+[Project2/in2.txt](https://github.com/ShooShoSha/Course-Work/blob/master/COP3014/Projects/Project2/in2.txt)
 
 ## Results
-`Project2/RunResults.txt`
+[Project2/RunResults.txt](https://github.com/ShooShoSha/Course-Work/blob/master/COP3014/Projects/Project2/RunResults.txt)
 
 ## Style and Format
 * Be sure to include appropriate documentation (header comments as described in 
