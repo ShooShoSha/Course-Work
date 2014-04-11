@@ -13,7 +13,7 @@
 	* Look through and create [issues](https://github.com/ShooShoSha/Course-Work/issues)
 	* Hours: MW 9:15-11:45, F 9:15-10:30
 	* Office: Building 4, Room 232
-	* Tel: 850-473-7346 :telephone:
+	* Telephone: (850) 473-7346
 	* Or [email](jlewis@uwf.edu) for an appointment.
 
 ## Course Description
