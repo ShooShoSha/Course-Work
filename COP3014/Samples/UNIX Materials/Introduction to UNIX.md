@@ -23,7 +23,7 @@
 	* sh (bourne)
 	* csh (Sun/Berkeley)
 	* ksh (Korn)
-	* bash (Linux)
+	* [bash](http://www.gnu.org/software/bash/manual/bashref.html)
 
 ## File System
 The file system is hierarchical, "an arrangement of items... in which 
@@ -192,12 +192,14 @@ that directories are a special type of file):
 
 There are a lot more commands and abilities UNIX is capable of 
 executing. Unfortunately, covering more is beyond the scope of this class. It 
-is encouraged you venture on your own to learn more of the system. The 
-greatest quality of the UNIX/Linux world is its community of users and 
-developers. Many questions have been asked and answered on various forums. 
-Also the "man" command is a great place to start (though it takes adjusting to 
-the documentation). Try the command:
+is encouraged you venture on your own to [learn more](http://www.ee.surrey.ac.uk/Teaching/Unix/unixintro.html)
+of the system. The greatest quality of the UNIX/Linux world is its community 
+of users and developers. Many questions have been asked and answered on 
+various forums. Also the "man" command is a great place to start (though it 
+takes adjusting to the documentation). Try the command:
+	
 	man man
+
 for a list of the manual pages and how to use man itself!
 
 ## Developing C programs on a UNIX machine from the Command Line
