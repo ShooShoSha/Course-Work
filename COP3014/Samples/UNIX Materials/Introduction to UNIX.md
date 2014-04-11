@@ -40,27 +40,25 @@ adminstrator).
 
 There are special symbols that refer to different directories in the 
 file system:
-''''
-/  	//root directory
-~  	//current user's home directory
-.  	//current directory
-.. 	//parent directory of the current directory (root does not have a parent; it is the parent of all directories)
-''''
+
+	/  	//root directory
+	~  	//current user's home directory
+	.  	//current directory
+	.. 	//parent directory of the current directory (root does not have a parent; it is the parent of all directories)
 
 Common shell commands for navigating a UNIX file system:
-''''
-cd 	//change directory
-ls 	//list files and directories in current directory
-pwd 	//shows path of the present working directory
-mkdir 	//make a new directory
-rmdir 	//remove a directory
-cp 	//copy a file or directory
-mv 	//move a file or directory (similar to cut and paste)
-rm 	//remove a file
-cat 	//display contents of a file
-more 	//display contents of a file
-man 	//show manual pages of commands
-'''
+
+	cd 	//change directory
+	ls 	//list files and directories in current directory
+	pwd 	//shows path of the present working directory
+	mkdir 	//make a new directory
+	rmdir 	//remove a directory
+	cp 	//copy a file or directory
+	mv 	//move a file or directory (similar to cut and paste)
+	rm 	//remove a file
+	cat 	//display contents of a file
+	more 	//display contents of a file
+	man 	//show manual pages of commands
 
 Many commands have additional options
 	ls -al //Gives a long listing of all files
@@ -89,31 +87,41 @@ Some examples of commands
 A path identifies a location in the file system. Paths are either 
 absolute or relative. If a path starts at the root of the file system, it is 
 abolute. If it starts from the present working directory, it is relative.
+
 	/usr/cs/jlewis/docs	//Absolute
 	samples/commands	//Relative
 	
 More commands:
+
 	grep stuff file1
 	tail -12 file1
 	od -c file1
 	tar -f archive.tar file1 file2 file3
 	compress archive.tar
+
 UNIX execution path is where the system looks for commands
 If ou misspell a command, it will respond with "unknown command"
 You can change where UNIX looks for commands by changing the path
 The system maintains several environment variables to hold information
 
 Try these commands:
+
 	set
 	env
+
 Look for the PATH variable. You can change their values
+
 	set PATH=:/usr/ucb :/bin :/usr/bin
+
 File redirection is sending the output from a command to a file or 
 getting input for a command from a file.
+
 	ls > data
 	cat data
+
 A pipe is similar to rile redirection with a major difference: a pipe 
 sends output from a command into another command's input, not a file.
+
 	ls -al | more
 
 ## File and Directory Permissions
@@ -160,8 +168,8 @@ Now we want to add write permissions to the student group:
 
 	chmod g+w Syllabus.txt
 	
-Permissions are given to **u**ser, **g**roup, and **o**thers. We can add
-(**+**) or remove (**-**) permissions.
+Permissions are given to **u** ser, **g** roup, and **o** thers. We can add
+( **+** ) or remove ( **-** ) permissions.
 
 We can also represent permissions in octal form. Look at r representing
 the value 4, w the value 2, and x the value 1. If we want to give the 
@@ -233,7 +241,7 @@ ways can you get to run without being in the directory "a.out" is contained?
 If you want to add to the PATH variable, you need to add the value of the old 
 variable and append the current directory:
 
-	PATH=$PATH\:,
+	PATH=$PATH\:.
 
 You are now ready to go to a UNIX machine, open a terminal, and get 
 programming! Don't be afraid to experiment, failure teaches us more than 
