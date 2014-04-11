@@ -40,23 +40,27 @@ adminstrator).
 
 There are special symbols that refer to different directories in the 
 file system:
-	/  	//root directory
-	~  	//current user's home directory
-	.  	//current directory
-	.. 	//parent directory of the current directory (root does not have a parent; it is the parent of all directories)
+''''
+/  	//root directory
+~  	//current user's home directory
+.  	//current directory
+.. 	//parent directory of the current directory (root does not have a parent; it is the parent of all directories)
+''''
 
 Common shell commands for navigating a UNIX file system:
-	cd 	//change directory
-	ls 	//list files and directories in current directory
-	pwd 	//shows path of the present working directory
-	mkdir 	//make a new directory
-	rmdir 	//remove a directory
-	cp 	//copy a file or directory
-	mv 	//move a file or directory (similar to cut and paste)
-	rm 	//remove a file
-	cat 	//display contents of a file
-	more 	//display contents of a file
-	man 	//show manual pages of commands
+''''
+cd 	//change directory
+ls 	//list files and directories in current directory
+pwd 	//shows path of the present working directory
+mkdir 	//make a new directory
+rmdir 	//remove a directory
+cp 	//copy a file or directory
+mv 	//move a file or directory (similar to cut and paste)
+rm 	//remove a file
+cat 	//display contents of a file
+more 	//display contents of a file
+man 	//show manual pages of commands
+'''
 
 Many commands have additional options
 	ls -al //Gives a long listing of all files
@@ -113,7 +117,7 @@ sends output from a command into another command's input, not a file.
 	ls -al | more
 
 ## File and Directory Permissions
-	Since a UNIX machine is a multi-user, there needs to be a way to 
+Since a UNIX machine is a multi-user, there needs to be a way to 
 protect your portion of the file system. UNIX uses a system called permissions.
 Every file has a set of permissions associated with it. Every file has an owner 
 and a group. For each file, you decide what access the owner (user) has, what 
@@ -122,7 +126,6 @@ access: read, write, and execute. When you execute the "ls -al" command, you
 see permissions for each file like the following:
 
 Type | Permissions           | Links | User    | Group   | Size | Modified Date | File
-     | User | Group | Others |       |         |         |      |               |
 ---- | ---- | ----- | ------ | ----- | ------- | ------- | ---- | ------------- | ----
 d    | rwx  | r-x   | r-x    |  3    | kobrien | student | 4096 | Apr 10 08:23  | .
 d    | rw-  | r--   | r--    |  3    | root    | root    | 4096 | Apr 10 08:17  | ..
@@ -150,13 +153,15 @@ To change the permissions on a file, use the chmod command. Assume we
 want to change the permissions on the Syllabus.txt file above. It has these 
 permissions: rw- r-- r-- and we want to remove the read access from all others.
 We use:
+
 	chmod o-r Syllabus.txt
 
 Now we want to add write permissions to the student group:
+
 	chmod g+w Syllabus.txt
 	
-Permissions are given to user (u), group (g), and others (o). We can add
-(+) or remove (-) permissions.
+Permissions are given to **u**ser, **g**roup, and **o**thers. We can add
+(**+**) or remove (**-**) permissions.
 
 We can also represent permissions in octal form. Look at r representing
 the value 4, w the value 2, and x the value 1. If we want to give the 
@@ -166,9 +171,12 @@ Similarly, we want the group to have read and execute permissions (read + write
 or 4 + 1) results in 5. Finally, we want all others only the ability to read 
 giving 4. We can then assign all these permissions with this form of the 
 command:
+
 	chmod 754 Syllabus.txt
+
 The same permissions can be applied to directories (you will notice 
 that directories are a special type of file):
+
 	chmod 700 kobrien
 
 There are a lot more commands and abilities UNIX is capable of 
@@ -194,6 +202,7 @@ compiler and is invoked with the "gcc" command.
 
 Suppose we saved some source code as "pgm1.c", you can compile it with
 this command:
+
 	gcc pgm1.c
 
 If there are no errors (the compiler will let you know of language errors, 
@@ -201,20 +210,29 @@ logic errors are for you to find and fix), the compiler will create an
 executable named "a.out" by default.
 If you set your PATH variable to the directory you are compiling your
 code, then you could simply execute the program like this:
+
 	a.out
+
 Otherwise the shell might give you an error saying it cannot find the command.
 You could add the directory to the PATH variable, or simply run the command in 
 the current directory:
+
 	./a.out
+
 Remeber that's a relative path. You could refer to it in a way like this:
+
 	/home/kobrien/samples/a.out
+
 or if you are in different (like your home directory) you could do this:
+
 	samples/a.out
+
 Try using relative paths from your dirctories to execute that program. How many
 ways can you get to run without being in the directory "a.out" is contained? 
 
 If you want to add to the PATH variable, you need to add the value of the old 
 variable and append the current directory:
+
 	PATH=$PATH\:,
 
 You are now ready to go to a UNIX machine, open a terminal, and get 
