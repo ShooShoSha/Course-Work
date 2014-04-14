@@ -1,0 +1,9 @@
+P1 : Stack.o StackTest.o
+	gcc Stack.o StackTest.o 
+
+Stack.o : Stack.c
+	gcc -c Stack.c
+StackTest.o : StackTest.c
+	gcc -c StackTest.c
+
+
