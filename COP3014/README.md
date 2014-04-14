@@ -69,6 +69,18 @@ Students who successfully complete this course will be able to:
 ### Required Reading
 * [Programming in C](http://goo.gl/UclAOl) Stephen G. Kochan, 3rd Edition, ISBN 0-672-32666-3
 
+### Useful Links
+
+#### General
+* [UWF](http://www.uwf.edu/)
+* [Computer Science Department](http://www.uwf.edu/computerscience)
+* [MyUWF](http://my.uwf.edu/)
+* [eLearning](http://library.uwf.edu/)
+
+####UNIX and C Programming
+* [jGrasp](http://www.jgrasp.org/) An easy-to-use IDE for C, C++, Java, etc.
+* [MinGW](http://sourceforge.net/projects/mingw/) Small C, C++ compiler that works well with jGrasp
+
 ## Expectations for Academic Conduct/Plagiarism Policy:
 
 > As members of the University of West Florida, we commit ourselves to 
