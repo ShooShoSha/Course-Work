@@ -1,5 +1,5 @@
 # Exam 1 Review
-The exam will be *closed book* and *closed notes*
+The exam will be **closed book** and **closed notes**
 Bring only pencils
 
 ## UNIX Commands for Compile, Link, and Run
@@ -29,7 +29,11 @@ Bring only pencils
 	* `unsigned`
 * Printing variables with `printf`
 * Arithmetic operators
-	* `+ - * / %`
+	* `+`
+	* `-`
+	* `*`
+	* `/`
+	* `%`
 * Precedence of arithmetic operators
 * Type casting
 
@@ -38,7 +42,12 @@ Bring only pencils
 * `while` loop
 * `do...while` loop
 * Relational operators
-	* `< > <= >= == !=`
+	* `<`
+	* `>`
+	* `<=`
+	* `>=`
+	* `==`
+	* `!=`
 * Program input with `scanf`
 * Nested loops
 * Correct indentation of blocks
@@ -48,7 +57,8 @@ Bring only pencils
 * `if...else` statements
 * Nested `if...else` statements
 * Compound relational tests
-	* `&& ||`
+	* `&&`
+	* `||`
 * `switch` statements
 	* `case`
 	* `break`

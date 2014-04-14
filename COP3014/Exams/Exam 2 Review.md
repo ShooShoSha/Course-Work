@@ -32,4 +32,5 @@ The exam will be **closed book** and **closed notes**.
 * Code implementation
 	* short code fragments
 	* complete function implementation
+	
 	> Do not include comments, `#include`, function prototypes, or `main`
