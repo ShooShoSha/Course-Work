@@ -1,0 +1,10 @@
+Invalid vector index [2] cannot set item.
+Vector is full, cannot add.
+
+Looking at vector 1 ...
+Size of vector is 5
+   128    133    73    99    999 
+
+Looking at vector 2 ...
+Size of vector is 4
+   210    777    5667    888 

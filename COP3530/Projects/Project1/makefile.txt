@@ -1,0 +1,9 @@
+P1 : Vector.o VectorTest.o
+	gcc Vector.o VectorTest.o 
+
+Vector.o : Vector.c
+	gcc -c Vector.c
+VectorTest.o : VectorTest.c
+	gcc -c VectorTest.c
+
+

@@ -1,0 +1,11 @@
+Run Output Project 2  Cop 3530
+
+
+Size is: 5,  Three  Four  Five  Six  Seven 
+Size is: 7,  One  Two  Three  Four  Five  Six  Seven 
+Size is: 7,  One  Two  Three  Four  Five  Seven  Eight 
+Removing One
+Size is: 6,  Two  Three  Four  Five  Seven  Eight 
+Removing Eight
+Size is: 5,  Two  Three  Four  Five  Seven 
+List 1 is NULL

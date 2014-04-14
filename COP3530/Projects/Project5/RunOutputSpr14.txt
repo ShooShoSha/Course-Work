@@ -1,0 +1,18 @@
+COP 3530 Project 5 Run Output Spring 14
+
+
+INFIX   : A + B - C
+POSTFIX : AB+C-
+
+INFIX   : A + 7 * (C - D) / E % F
+POSTFIX : Unknown character in expression.
+
+INFIX   : A*(B-C)+(D/(E+F%G))
+POSTFIX : ABC-*DEFG%+/+
+
+INFIX   : (A + (B - C * D) / E % F
+POSTFIX : Unmatched left parenthesis.
+
+INFIX   : A + B * (C / (D - (E % F)))
+POSTFIX : ABCDEF%-/*+
+
