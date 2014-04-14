@@ -30,7 +30,7 @@
 		{
 			printf("Enter dollars: ");
 			scanf ("%i", &dollars);
-			printf("enter cents: ");
+			printf("Enter cents: ");
 			scanf ("%i", &cents);
 			printf("$%i.%.2i\n\n", dollars, cents);
 		}
@@ -41,4 +41,4 @@
 8. Program 5.5 allows the user to type in only five different numbers. Modify that program so that the user can type in the number of triagular numbers to be calculated.
 9. Rewrite Programs 5.2 through 5.5, replacing all uses of the `for` statement by equivalent `while` statements. Run each program to verify that both versions are identical.
 10. What would happen if you typed a negative number into Program 5.8? Try it and see.
-11. Write a program that calculates the sum of the digits of an integer. For example, the fum of the digits of the number 2155 is 2 + 1 + 5 + 5 or 13. The program should accept any arbitrary integer typed in by the user.
+11. Write a program that calculates the sum of the digits of an integer. For example, the sum of the digits of the number 2155 is 2 + 1 + 5 + 5 or 13. The program should accept any arbitrary integer typed in by the user.
