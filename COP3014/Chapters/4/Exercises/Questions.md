@@ -43,7 +43,7 @@ the text.
 	`0XABCDEFL`
 	`0xabcu`
 	`+123`
-4. Write a C program that converts 27 from degrees Fahrenheit (F) to degrees 
+4. Write a C program that converts 27&#176; from degrees Fahrenheit (F) to degrees 
 Celsius (C) using the following formula:
 	`C = (F - 32) / 1.8`
 
