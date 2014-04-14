@@ -45,7 +45,8 @@ the text.
 	`+123`
 4. Write a C program that converts 27&#176; from degrees Fahrenheit (F) to degrees 
 Celsius (C) using the following formula:
-	`C = (F - 32) / 1.8`
+
+	> C = (F - 32) / 1.8
 
 5. What output would you expect from the following program:
 	```C
@@ -63,18 +64,20 @@ Celsius (C) using the following formula:
 	}
 	```
 6. Write a program to evaluate the polynomial shown here:
- 
-	`3x^3 - 5x^2 + 6, where x = 2.55`
+
+	> 3x<sup>3</sup> - 5x<sup>2</sup> + 6, where x = 2.55
+
 7. Write a program that evaluates the following expression and displays the 
 results (remember to use exponential format to display the result):
 
-	`(3.31 x 10^-8 x 2.01 x 10^-7)  / (7.16 x 10^-6 + 2.01 x 10^-8)`
+	> (3.31 x 10<sup>-8</sup> x 2.01 x 10<sup>-7</sup>)  / (7.16 x 10<sup>-6</sup> + 2.01 x 10<sup>-8</sup>)
+
 8. To round off an integer `i` to the next largest even multiple of another integer `j`, the following formula can be used: `Next_multiple = i + j - i  % j`.
 For example, to round off 256 days to the next largest number of days evenly divisble week, values of `i = 256` and `j = 7` can be substituted into the preceding formula as follows:
 	```
 	Next_multiple = 256 + 7 - 256 % 7
-		      = 256 + 7 - 4
-		      = 259
+		        = 256 + 7 - 4
+		        = 259
 	```
 Write a program to find the next largest even multiple for the following values of `i` and `j`:
 
