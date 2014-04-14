@@ -30,7 +30,7 @@
 		{
 			printf("Enter dollars: ");
 			scanf ("%i", &dollars);
-			printf("enter cents: ");
+			printf("Enter cents: ");
 			scanf ("%i", &cents);
 			printf("$%i.%.2i\n\n", dollars, cents);
 		}
