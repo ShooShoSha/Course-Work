@@ -1,0 +1,2 @@
+The decimal flag denotes number of digit to enforce and pad the number with 
+zeros to match that width.

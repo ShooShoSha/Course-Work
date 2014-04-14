@@ -1,0 +1,1 @@
+It reverses the number with each digit also having its own negative sign. e.g. -4096 prints -6-90-4. Since zero is nonnegative, it does not receive a sign.
