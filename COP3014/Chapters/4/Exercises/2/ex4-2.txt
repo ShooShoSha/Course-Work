@@ -1,0 +1,12 @@
+Int
+Calloc
+floating
+ReInitialize
+char - invalid, reserved word
+Xx
+_1312
+_
+6_05 - invalid, cannot start with a number
+alpha_beta_routine
+z
+A$ - invalid, illegal character '$'
