@@ -45,7 +45,7 @@ Include a statement indicating the most commonly occurring type of character.
 Some strings that may be used to test the program:
 `123  DONE?by?`
 
-### Notes
+### Suggestions
 Feel free to use any instruction that you like. You are not limited to what we
 have discussed in class. There is a complete list of instructions in the MARS
 help files.
