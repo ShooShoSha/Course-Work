@@ -82,9 +82,8 @@ architectures and parallel processors
 * [MyUWF](http://my.uwf.edu/)
 * [eLearning](http://library.uwf.edu/)
 
-####UNIX and C Programming
-* [jGrasp](http://www.jgrasp.org/) An easy-to-use IDE for C, C++, Java, etc.
-* [MinGW](http://sourceforge.net/projects/mingw/) Small C, C++ compiler that works well with jGrasp
+#### MIPS
+[MARS Simulator](http://courses.missouristate.edu/KenVollmar/MARS/)
 
 ## Expectations for Academic Conduct/Plagiarism Policy:
 
