@@ -6,7 +6,7 @@
 	* **Credit Hours:** 4.0
 	* **Instructor:** Jim Lewis, [jlewis@uwf.edu](jlewis@uwf.edu)
 	* **Time:** MWF 8:00-8:50 AM
-	* **Place:** Building 74 / Room 101
+	* **Place:** Building 4 / Room 248
 	* **Website:** http://www.uwf.edu/jlewis
 
 * **Need Help?**
