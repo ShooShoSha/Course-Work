@@ -39,8 +39,8 @@ writing code down with someone else, you've gone too far.
 ### Submission
 * Submit your project using the eLearning dropbox
   * Notice there is a dropbox for late submissions
-* Submit a `.zip` archive containing all files necessary to run your program
-  * Name your file argoID_project_#.zip (i.e. `kpo1_project_.zip`)
+* Submit a `.zip` archive containing all ADT files for your program
+  * Name your file argoID_project_#.zip (i.e. `kpo1_project_6.zip`)
   * If you have multiple source (.c) files, include a README indicating the 
 command used to compile and build your program
 * **Do not submit a file containing a `main` function!**
