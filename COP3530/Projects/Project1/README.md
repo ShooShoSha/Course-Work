@@ -7,7 +7,9 @@
 * January 20, before 5:00 PM (for late submissions)
 
 ### Objective
-Write a C Program that implements a data structure known as a vector (also known as an ArrayList in Java). A vector is an advanced array structure. It supports several operations including:
+Write a C Program that implements a data structure known as a vector (also 
+known as an ArrayList in Java). A vector is an advanced array structure. It 
+supports several operations including:
   * `new`
   * `add`
   * `get`
@@ -19,16 +21,29 @@ Write a C Program that implements a data structure known as a vector (also known
 
 Be sure you understand exactly how each function should work!
 
-In a perfect world, the vector would grow to any size necessary but for now we will not attempt that.
+In a perfect world, the vector would grow to any size necessary but for now we 
+will not attempt that.
 
-Notice that the basic premise is that this `vector` will be used in many future projects. The interface for the `vector` needs to be defined in a header (.h) file and the `vector` needs to be implemented in a source (.c) file (i.e. `vector.h` and `vector.c`).
+Notice that the basic premise is that this `vector` will be used in many 
+future projects. The interface for the `vector` needs to be defined in a 
+header (.h) file and the `vector` needs to be implemented in a source (.c) 
+file (i.e. `Vector.h` and `Vector.c`).
 
-The `vector` needs to be tested, so we will need a `main` driver program to use for testing the functionality of our `vector`
+The `vector` needs to be tested, so we will need a `main` driver program to 
+use for testing the functionality of our `vector`
 
 ### Specification
-Here is a file [Vector.h](Vector.h) that contains the definition for your `vector`. You must write a matching `Vector.c` file to implement this interface. Your `Vector.c` file may contain other utility functions not listed in the interface. Remember to put a `#include "Vector.h"` statement in your `Vector.c` file.
+Here is a file [Vector.h](Vector.h) that contains the definition for your 
+`vector`. You must write a matching `Vector.c` file to implement this 
+interface. Your `Vector.c` file may contain other utility functions not listed 
+in the interface. Remember to put a `#include "Vector.h"` statement in your 
+`Vector.c` file.
 
-Here is a sample [test program](VectorTest.c) that you can use. You may want to use only a small portion of this file *initially*. Here is a [`make` file](makefile.txt) that you can use with this project. You will need it if you use jGrasp. **Be sure to remove the** `.txt` **extension from the file**.
+Here is a sample [test program](VectorTest.c) that you can use. You may want 
+to use only a small portion of this file *initially*. Here is a 
+[`make` file](makefile.txt) that you can use with this project. You will need 
+it if you use jGrasp. **Be sure to remove the** `.txt` **extension from the 
+file**.
 
 ### Grading
 [`VectorTestGrader.c`](VectorTestGrader.c)
