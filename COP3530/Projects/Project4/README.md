@@ -74,8 +74,8 @@ The integers to be sorted will be in the range **0...99999** inclusive.
 ### Grading
 
 #### Algorithms
-* [Merge](Merge.md)
-* [Quicksort](Quicksort.md)
+* [Merge](algorithms/Merge.md)
+* [Quicksort](algorithms/Quicksort.md)
 
 #### Files
 * Binary files to start
