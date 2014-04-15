@@ -25,12 +25,12 @@ for more, simply proceed to step 2 above.
 DO **NOT** use functions (other than main) for this program.
 
 ## Data
-[Project3/inA.txt](https://github.com/ShooShoSha/Course-Work/blob/master/COP3014/Projects/Project3/inA.txt)
-[Project3/inB.txt](https://github.com/ShooShoSha/Course-Work/blob/master/COP3014/Projects/Project3/inB.txt)
-[Project3/inC.txt](https://github.com/ShooShoSha/Course-Work/blob/master/COP3014/Projects/Project3/inC.txt)
+[inA.txt](inA.txt)
+[inB.txt](inB.txt)
+[inC.txt](inC.txt)
 
 ## Results
-[Project3/RunOutput.txt](https://github.com/ShooShoSha/Course-Work/blob/master/COP3014/Projects/Project3/RunOutput.txt)
+[RunOutput.txt](RunOutput.txt)
 
 ## Reminder
 This is not a group project. You should not show anyone else your code and you 
