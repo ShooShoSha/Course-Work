@@ -1,0 +1,74 @@
+##############################################
+#  CDA 3101
+#  Sample that preserves registers
+##############################################
+
+.text
+.globl main
+main:
+    # do some useful things and then call this function
+    li   $s0, 255
+    li   $s1, 63
+    jal   doSomething
+
+    # the values in $s0 and $s1 should still be 255 and 63
+    # do some other useful thing and quit this program
+done:
+    jal   end
+
+
+########################################################
+#
+# Procedure to do something ...
+# Assume that it uses registers $s0 and $s1 so
+# those must be saved onto the stack at the start of
+# the function and restored from the stack at the end.
+# Assume also that it calls another function, so it 
+# must preserve the $ra register.
+#
+########################################################
+doSomething:
+   addi $sp, $sp, -12   # create space on stack for regs
+   sw  $ra, 0($sp)      # Need to save return addr
+   sw  $s0, 4($sp)
+   sw  $s1, 8($sp)   
+
+   # now do whatever something is ...
+   li   $s0, 5
+   li   $s1, 10
+   jal  printNewline
+
+   # now restore all the registers
+   lw  $s1, 8($sp)
+   lw  $s0, 4($sp)
+   lw  $ra, 0($sp)
+   addi $sp, $sp, 12    # restore $sp
+   jr  $ra              # return
+########################################################
+#
+# Procedure to print a newline character
+#
+########################################################
+printNewline:
+   la $a0, newline
+   li $v0, 4            # print_string
+   syscall
+   jr $ra   
+
+########################################################
+#
+# Procedure to exit program
+#
+########################################################
+end:
+   li $v0, 10
+   syscall              # exit
+
+########################################################
+#
+# Data Segment
+#
+########################################################
+.data
+newline: .asciiz "\n"   
+

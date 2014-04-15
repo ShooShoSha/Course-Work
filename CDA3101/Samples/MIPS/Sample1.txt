@@ -1,0 +1,26 @@
+# ------------------------------------------------------
+#
+# pgm1.s
+#
+# CDA 3101
+# Jim Lewis
+# Test program 1 - Hello world
+#
+# ------------------------------------------------------
+.text                   # beginning of code
+.globl main             # notice the spelling
+	
+   main:
+      li  $v0, 4        # using service 4, print_str
+      la  $a0, str      # load the address of the string
+      syscall           # call the OS
+	  
+      li  $v0, 10       # service 10, terminate
+      syscall           # call the OS
+		
+# ------------------------------------------------------
+.data                   # beginning of data area
+   str:
+      .asciiz  "ABCDEFGH\n"
+# ------------------------------------------------------
+
