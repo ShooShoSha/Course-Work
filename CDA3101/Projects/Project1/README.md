@@ -17,14 +17,30 @@ Thursday January 23, at start of class
 
 ### Specification
 1. Do these number conversions.
-	* 118<sub>10</sub>
-	* 1011 0011<sub>2</sub>
-	* 36BE<sub>16</sub>
-	* 239<sub>10</sub>
-	* 10 1001<sub>2</sub>
+	* 118<sub>10</sub> = `_______________`<sub>2</sub>
+
+
+	* 1011 0011<sub>2</sub> = `_______________`<sub>10</sub>
+
+
+	* 36BE<sub>16</sub> = `_______________`<sub>2</sub>
+
+
+	* 239<sub>10</sub> = `_______________`<sub>16</sub>
+
+
+	* 10 1001<sub>2</sub> = `_______________`<sub>7</sub>
+
+
 2. Do this arithmetic:
-	* 0101 0111<sub>2</sub> + 0011 0110<sub>2</sub>
-	* 59A<sub>16</sub> - 2EC(sub>16</sub>
+  0101 0111<sub>2</sub>
+
++ 0011 0110<sub>2</sub>
+
+  59A<sub>16</sub>
+
+- 2EC<sub>16</sub>
+
 3. Assume you have an 8-bit two's complement computer. Show how the value
 -91<sub>10</sub> would be stored in binary in that computer. Show all 8 bits.
 4. Assume you have an 8-bit two's complement computer. Convert these values to
