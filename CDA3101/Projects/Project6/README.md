@@ -1,56 +1,58 @@
-# Project 5
+# Project 6
 
-## MIPS 1
+## MIPS 2
 
 ### Due
-* March 31, before 5:00 PM
-* April 1, before 5:00 PM (for late submissions)
+* April 11, before 5:00 PM
+* April 14, before 5:00 PM (for late submissions)
 
 ### Objective
-Write a MIPS assembly language program using the MARS simulator which will 
-prompt the user for a string and then process the string one character at a time
-to display some specific information.
+Write a MIPS assembly language program which will allow the user to view **one word**
+of memory. Your program should prompt the user for a memory address which will be
+entered as a hexadecimal and then prompt the user for a format for the output of the
+contents of that memory address. Your program should then display bothe the address and
+contents. Notice that the address may refer to a section of the code segment, the data
+segment, or the stack segment.
 
 ### Specification
-1. Display a meaningful prompt asking the user to enter up to 40 characters
-2. Accept no more thatn 40 characters
-3. Count the number of occurences of each these categories of characters:
-    * Digits (0-9)
-    * Uppercase letters (A...Z)
-    * Lowercase letters (a...z)
-    * Spaces
-    * All other characters
-4. Display the results of your analysis
-5. Display the original message.
+* Print an appropriate header before each display (different for each type of output)
+* Each display should start with address, showing hight (8) hexadecimal digits
+   * Include 0x and dislay all eight (8) hex digits
+* Display the contents of that memory location in the desired format
+   * hexadecimal (same format as address)
+   * one 32-bit decimal integer (signed, no leading zeros)
+   * four separate decimal integers representing the four bytes stored in the word
+* Notice that all displays are for one word (32 bits) of memory
+* Assume that the user enters addresses in this format: `0x10010000`
+   * Also the user requests **only legal address** (no error checking)
+* Use **at least three (3)** procedures to simplify and organize the code (`jal` and `jr`)
+* For this project, you need not pass parameters or return values
+* Use main to primarily call procedures
+   * Keep main as simple as possible
+* Allow the user to make multiple selections
+   * Use a large loop in main
 
 ### Grading
 #### Sample Run
-##### Input
-`Hello There CB483?`
 ##### Output
 ```
-Total Characters entered : 18
-Digits                   : 3
-Uppercase letters        : 4
-Lowercase Letters        : 8
-Spaces                   : 2
-Other Characters         :
-Most Common type         : Lowercase Letters
-Original String          : Hello There CB483?
+Address    Hexadecimal
+0x0040000c 0x3c011001
+
+Address    Decimal
+0x10010014 756
+
+Address    Bytes
+0x10010018 10 51 50 49
 ```
-#### Challenge
-Include a statement indicating the most commonly occurring type of character.
 
-#### Tests
-Some strings that may be used to test the program:
-`123  DONE?by?`
-
-### Notes
+### Suggestions
 Feel free to use any instruction that you like. You are not limited to what we
 have discussed in class. There is a complete list of instructions in the MARS
 help files.
-* Do not count the enter key or a null terminator as a character.
-    * What happens with non-printing characters?
+* Try writing the program in a high-level language or psedocode first then translate
+* Use procedures extensively
+* Get **one piece** of the program working at a time
 
 ### Reminder
 This is not a group project. You should not show anyone else your code and you 
@@ -72,4 +74,4 @@ writing code down with someone else, you've gone too far.
 * Submit your project using the eLearning dropbox
   * Notice there is a dropbox for late submissions
 * Submit a `.zip` archive containing your `.s` file
-  * Name your file argoID_project_#.zip (i.e. `kpo1_project_2.zip`)
+  * Name your file argoID_project_#.zip (i.e. `kpo1_project_6.zip`)
