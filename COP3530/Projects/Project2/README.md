@@ -1,4 +1,4 @@
-# Project 1
+# Project 2
 
 ## ArrayList
 
@@ -60,7 +60,7 @@ writing code down with someone else, you've gone too far.
   * Name your file argoID_project_#.zip (i.e. `kpo1_project_2.zip`)
 
 ### Suggestions
-* Copy project 1 and change the names from `Vector` to `ArrayList`
+* Copy [Project 1](../Project1/README.md) and change the names from `Vector` to `ArrayList`
   * Use find/replace
   * Test functionality
 * Move definition of the `struct` from the header (.h) file to the source (.c) file
@@ -70,6 +70,6 @@ writing code down with someone else, you've gone too far.
   * Test again
 * Write a utility function that makes the array in the `Vector` *grow*
   * Test (yes) again
-* Add the functions needed for this [project](README.md) that were not 
-included in [Project 1](Project1/README.md)
+* Add the functions needed for [this project](README.md) that were not 
+included in [Project 1](../Project1/README.md)
   * As always, test
