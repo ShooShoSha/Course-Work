@@ -34,10 +34,10 @@ array of the correct size and then close the file
   3. Sort the integers into ascending order
     * Note: after the sort, the integers must be back into the original array
   4. Stop the timer and record the elapsed time
-  5. For file `A.dat` and `E.dat`, write the sorted integers to an output text 
+  5. For files `A.dat` and `E.dat`, write the sorted integers to an output text 
 file
     * Note: write ten numbers per line in the output file in neat columns
-  6. Free thememory used for the array
+  6. Free the memory used for the array
   7. Repeat from step 1 until all eight (8) files are sorted
   8. Display results in a table including
     * Filename
@@ -45,7 +45,7 @@ file
     * Elasped time (in milliseconds)
 
 ### Specification
-The integers will be stored in eight binary files
+The integers will be stored in eight (8) binary files
   * [A.dat](dataFiles/A.dat)
   * [B.dat](dataFiles/B.dat)
   * [C.dat](dataFiles/C.dat)
@@ -89,6 +89,8 @@ The integers to be sorted will be in the range **0...99999** inclusive.
     * [dataFile.zip](dataFiles.zip)
 
 #### Sample Output
+**Merge**
+
 Filename | N | Time (msecs)
 --- | ---| ---
 A.dat | 2000 | 1
@@ -113,8 +115,7 @@ writing code down with someone else, you've gone too far.
 ### Submission
 * Submit your project using the eLearning dropbox
   * Notice there is a dropbox for late submissions
-* Submit a `.zip` archive containing **only** your `LinkedList.c` file
+* Submit a `.zip` archive containing all files necessary to run your program
   * Name your file argoID_project_#.zip (i.e. `kpo1_project_4.zip`)
-  * Submit all files necessary to run your program
-    * If you have multiple source (.c) files, include a README indicating the 
+  * If you have multiple source (.c) files, include a README indicating the 
 command used to compile and build your program
