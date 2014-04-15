@@ -7,7 +7,7 @@
 * March 21, before 5:00 PM (for late submissions)
 
 ### Objective
-Practive with assembly language using _MARIE_.
+Practice with assembly language using _MARIE_.
 
 ### Specification
 Write a program in MARIE assembly language which will allow the user to enter a
@@ -16,6 +16,7 @@ sentinel indicating all numbers have been entered. The negative value is not
 part of the valid data.
 
 When all numbers have been entered, print the following information:
+
 1. How many numbers were entered
 2. The sum of all the numbers
 3. The largest number entered
@@ -30,21 +31,20 @@ ASCII. Notice also that the memory display in MARIE is in hexadecimal.
 
 ### Grading
 #### Input
+
+```
 47
-
 31
-
 28
-
 -3
+```
 
 #### Output
+```
 3
-
 106
-
 47
-
+```
 
 ### Reminder
 This is not a group project. You should not show anyone else your code and you 
