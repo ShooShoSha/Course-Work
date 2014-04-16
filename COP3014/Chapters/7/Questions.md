@@ -58,7 +58,7 @@ compared to the ones used in the text for calculating prime numbers?
 	2. Set __i__ to 2.
 	3. If __i > n__, the algorithm terminates.
 	4. If __P<sub>i</sub>__ is 0, then __i__ is prime.
-	5. For all positive integer values of __j__, such that __i * j <= n__, set 
+	5. For all positive integer values of __j >= i__, such that __i * j <= n__, set 
 	__P<sub>i*j</sub>__ to 1.
 	6. Add 1 to __i__ and go to step 3. 
 
