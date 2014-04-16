@@ -22,6 +22,8 @@ int main(void)
 			printf("%.2f\n", value1 - value2);
 			break;
 		case '*':
+		case 'x':
+		case 'X':
 			printf("%.2f\n", value1 * value2);
 			break;
 		case '/':
