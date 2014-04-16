@@ -1,19 +1,20 @@
 // Program to generate a table of prime numbers
 
 #include <stdio.h>
+#include <stdbool.h>
 
 int main(void)
 {
 	int p,d;
-	_Bool isPrime;
+	bool isPrime;
 
 	for(p = 2; p <= 50; ++p)
 	{
-		isPrime = 1; //Assume value is prime
+		isPrime = true; //Assume value is prime
 
 		for(d = 2; d < p; ++d)
 			if(0 == p % d)
-				isPrime = 0;
+				isPrime = false;
 
 		if(isPrime)
 			printf("%i ", p);
