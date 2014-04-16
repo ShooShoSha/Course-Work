@@ -8,13 +8,13 @@ shown.
 terminal. Test these two numbers to determine if the first is evenly divisible
 by the second, and then display an appropriate message at the terminal.
 3. Write a program that accepts two integer values typed in by the user. 
-Display the result of dividing the first integer by the second, to three-
-decimal-place accuracy. Remember to have the program check for division by
-zero.
+Display the result of dividing the first integer by the second, to 
+three-decimal-place accuracy. Remember to have the program check for division 
+by zero.
 4. Write a program that acts as a simple _printing_ calculator. The program
 should allow the user to ype in expressions of the form `number operator` The
 following operators should be recognized by the program: `=` `-` `*` `/` `S` 
-`E`. The `S` operator tells the program to set the _accumulator to the typed-in
+`E`. The `S` operator tells the program to set the _accumulator_ to the typed-in
 number. The `E` operator tells the program that execution is to end. The 
 arithmetic operations are performed on the contents of the accumulator with the
 number that was keyed in acting as the second operand. The following is a 
@@ -42,8 +42,8 @@ unknown operators.
 an integer typed in from the terminal. However, this program does not function 
 well if you type in a negative number. Find out what happens in such a case and
 then modify the program so that negative numbers are correctly handled. For
-example, if the number -8645 is typed in, the output of the program should be
-5468-.
+example, if the number `-8645` is typed in, the output of the program should be
+`5468-`.
 6. Write a program that takes an integer keyed in from the terminal and 
 extracts and displays each digit of the integer in English. So, if the user
 types in 932 the program should display `nine three two`. Remember to display
