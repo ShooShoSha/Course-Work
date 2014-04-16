@@ -21,23 +21,18 @@ values.
 	
 	int main(void)
 	{
-		#include <stdio.h>
+	    int numbers[10] = {1,0,0,0,0,0,0,0,0,0};
+	    int i, j;
 
-		int main(void)
-		{
-		    int numbers[10] = {1,0,0,0,0,0,0,0,0,0};
-		    int i, j;
+	    for(j = 0; j < 10;  ++j)
+	    	for(i = 0; i < j; ++i)
+	    		numbers[j] += numbers[i];
 
-		    for(j = 0; j < 10;  ++j)
-		    	for(i = 0; i < j; ++i)
-		    		numbers[j] += numbers[i];
+	    for(j = 0; j < 10; ++j)
+		printf("%i ", numbers[j]);
+	    printf("\n");
 
-		    for(j = 0; j < 10; ++j)
-			printf("%i ", numbers[j]);
-		    printf("\n");
-
-		    return 0;
-		}
+	    return 0;
 	}
 	```
 6. You don’t need to use an array to generate Fibonacci numbers.You can simply 
