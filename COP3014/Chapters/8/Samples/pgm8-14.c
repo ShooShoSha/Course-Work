@@ -28,7 +28,7 @@ void convertNumber(void)
 	{
 		convertedNumber[digit] = numberToConvert % base;
 		++digit;
-		numberToConvert / base;
+		numberToConvert /= base;
 	} while(numberToConvert);
 }
 
@@ -48,11 +48,12 @@ void displayConvertedNumber(void)
 		nextDigit = convertedNumber[digit];
 		printf("%c", baseDigits[nextDigit]);
 	}
+	printf("\n");
 }
 
 int main(void)
 {
-	getNumberAndBase();
+	getNumberAndBase();	
 	convertNumber();
 	displayConvertedNumber();
 	
