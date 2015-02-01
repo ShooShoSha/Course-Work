@@ -23,8 +23,9 @@ gets to 1, the more accurate the approximation of the square root. Modify
 [Program 8.8](Samples/pgm8-8.c) so this new termination criteria is used.
 6. Modify [Program 8.8](Samples/pgm8-8.c) so that the `squareRoot` function accepts a double precision argument and returns the result as a double precision value. Be certain to change the value of the variable `epsilon` to reflect the fact that double precision variables are now being used.
 7. Write a function that raises an integer to a positive integer power. Call the function `x_to_the_n` taking two integer arguments `x` and `n`. Have the function return a `long int`, which represents the results of calculating `x`<sup>`n`</sup>.
-8. An equation of the form `ax`<sup>`2`</sup>` + bx + c = 0` is known as a _quadratic` equation. The values _a_, _b_, and _c_ in the preceding example represent constant values. So `4x`<sup>`2`</sup>` - 17x - 15 = 0` represents a quadratic equation where _a_ = 4, _b_ = -17, and _c_ = -15. The values of _x_ that satisfy a particular quadratic equation, known as the _roots_ of the equation, can be calculated by substituting the values of _a_, _b_, and _c_ into the following two formulae: 
-
+8. An equation of the form 
+> ax<sup>2</sup> + bx + c = 0 
+is known as a _quadratic` equation. The values _a_, _b_, and _c_ in the preceding example represent constant values. So `4x`<sup>`2`</sup>` - 17x - 15 = 0` represents a quadratic equation where _a_ = 4, _b_ = -17, and _c_ = -15. The values of _x_ that satisfy a particular quadratic equation, known as the _roots_ of the equation, can be calculated by substituting the values of _a_, _b_, and _c_ into the following two formulae: 
   > If the value of _b<sup>2</sup>-4ac_, called the _discriminant_, is less than zero, the roots or the equation, _x<sub>1</sub>_ and _x<sub>2</sub>_, are imaginary numbers.
 
   > ![Quadratic Formula](http://upload.wikimedia.org/wikipedia/commons/c/c4/Quadratic_formula.svg)
