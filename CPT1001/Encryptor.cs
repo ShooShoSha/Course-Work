@@ -33,10 +33,13 @@ namespace Crypto
     /// <summary>
     /// Serializes, encrypts, decrypts, and deserializes the <see cref="Crypto.Data"/> object.
     /// </summary>
-    class Encryptor
+    public class Encryptor
     {
         private System.Runtime.Serialization.IFormatter formatter;
 
+        /// <summary>
+        /// Initializes a new instance of the <see cref="Crypto.Encryptor"/> class and demonstrates encryption of serializable objects.
+        /// </summary>
         public Encryptor()
         {
             // Setup debugging information
@@ -61,6 +64,14 @@ namespace Crypto
 
         }
 
+        /// <summary>
+        /// Returns an implementation of <see cref="System.Security.Cryptography.SymmetricAlgorithm"/>.
+        /// </summary>
+        /// <remarks>
+        /// This is a helper method so the exact implementation of the encryption algorithm is mute.
+        /// Be wary that changing the specific implementation changes the requirements of the secret key and IV.
+        /// </remarks>
+        /// <returns>Implementation of <see cref="Sytstem.Security.Cryptography.SymmetricAlgorithm"/></returns>
         private System.Security.Cryptography.SymmetricAlgorithm CreateAlgorithm()
         {
             return System.Security.Cryptography.Rijndael.Create();
@@ -129,6 +140,13 @@ namespace Crypto
             return new System.Tuple<byte[], byte[], byte[]>(cipherObject, iv, key);
         }
 
+        /// <summary>
+        /// Decrypts and deserializes a byte array into a <see cref="Crypto.Data"/> object given the secret key and initialization vector.
+        /// </summary>
+        /// <param name="cipherObject">Encrypted byte array of serialized object.</param>
+        /// <param name="key">Secret key to decrypt <paramref name="cipherObject"/> byte array.</param>
+        /// <param name="iv">Initialiation vector (IV) to decrypt <paramref name="cipherObject"/> byte array.</param>
+        /// <returns>A <see cref="Crypto.Data"/> object on successful decryption and deserialization.</returns>
         private Data DecryptAndDeserialize(byte[] cipherObject, byte[] key, byte[] iv)
         {
             Data plainObject = null;
@@ -145,6 +163,10 @@ namespace Crypto
             return plainObject;
         }
 
+        /// <summary>
+        /// Prints contents of a <see cref="byte[]"/>.
+        /// </summary>
+        /// <param name="array">A byte array to print its contents.</param>
         private void Print(byte[] array)
         {
             foreach (byte item in array)
