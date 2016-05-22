@@ -9,10 +9,12 @@ print "If you do want that, hit RETURN."
 raw_input("?")
 
 print "Opening the file..."
+# Open in write mode (default is read only)
 target = open(filename, 'w')
 
+# Opening in 'w' mode and performing truncate() is redundant it seems
 print "Truncating the file. Goodbye!"
-target.truncate()
+#target.truncate()
 
 print "Now I'm going to ask you for three lines."
 
